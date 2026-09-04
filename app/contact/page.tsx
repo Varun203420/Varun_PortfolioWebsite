@@ -1,0 +1,25 @@
+export default function Contact() {
+  return (
+    <div className="mx-auto max-w-2xl px-6 py-16">
+      <h1 className="font-display text-3xl font-semibold tracking-tight">
+        Contact
+      </h1>
+      <div className="mt-8 flex flex-col gap-3 text-lg">
+        <a href="mailto:varun@example.com" className="hover:text-signal">
+          varun@example.com
+        </a>
+        <a
+          href="https://github.com/Varun203420"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-signal"
+        >
+          GitHub — Varun203420
+        </a>
+        <a href="#" className="hover:text-signal">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  );
+}
