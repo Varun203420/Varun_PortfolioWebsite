@@ -14,7 +14,7 @@ export default function Contact() {
           rel="noreferrer"
           className="hover:text-signal"
         >
-          GitHub — Varun203420
+          GitHub - Varun203420
         </a>
         
           href="https://www.linkedin.com/in/varun-hariharan1/"
