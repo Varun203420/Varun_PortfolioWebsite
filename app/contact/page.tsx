@@ -8,7 +8,7 @@ export default function Contact() {
         <a href="mailto:varun.hariharan203@gmail.com" className="hover:text-signal">
           varun.hariharan203@gmail.com
         </a>
-        
+        <a
           href="https://github.com/Varun203420"
           target="_blank"
           rel="noreferrer"
@@ -16,7 +16,7 @@ export default function Contact() {
         >
           GitHub - Varun203420
         </a>
-        
+        <a
           href="https://www.linkedin.com/in/varun-hariharan1/"
           target="_blank"
           rel="noreferrer"

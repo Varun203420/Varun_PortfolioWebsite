@@ -7,7 +7,7 @@ export default function Footer() {
           <a href="mailto:varun.hariharan203@gmail.com" className="hover:text-signal">
             Email
           </a>
-          
+          <a
             href="https://github.com/Varun203420"
             className="hover:text-signal"
             target="_blank"
@@ -15,7 +15,7 @@ export default function Footer() {
           >
             GitHub
           </a>
-          
+          <a
             href="https://www.linkedin.com/in/varun-hariharan1/"
             className="hover:text-signal"
             target="_blank"
