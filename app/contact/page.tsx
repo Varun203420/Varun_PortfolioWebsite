@@ -5,10 +5,10 @@ export default function Contact() {
         Contact
       </h1>
       <div className="mt-8 flex flex-col gap-3 text-lg">
-        <a href="mailto:varun@example.com" className="hover:text-signal">
-          varun@example.com
+        <a href="mailto:varun.hariharan203@gmail.com" className="hover:text-signal">
+          varun.hariharan203@gmail.com
         </a>
-        <a
+        
           href="https://github.com/Varun203420"
           target="_blank"
           rel="noreferrer"
@@ -16,7 +16,12 @@ export default function Contact() {
         >
           GitHub — Varun203420
         </a>
-        <a href="#" className="hover:text-signal">
+        
+          href="https://www.linkedin.com/in/varun-hariharan1/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-signal"
+        >
           LinkedIn
         </a>
       </div>
