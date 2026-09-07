@@ -49,11 +49,11 @@ export default function Home() {
               linkHref="https://portfolio-monte-carlo-hqoum8g6b6qbnqbz4sm7ii.streamlit.app/"
             />
             <ProjectCard
-              title="City Food Festival"
-              description="An end-to-end UX case study — research, branding, and a mobile app for a local food festival."
-              tags={["User Research", "Figma", "Prototyping"]}
-              linkLabel="Read case study →"
-              linkHref="/projects"
+              title="AI Data Analyst"
+              description="Upload a CSV, ask a question in plain English, get back a chart and a written summary — the LLM picks from vetted analysis functions instead of generating arbitrary code."
+              tags={["Python", "FastAPI", "Claude API", "Streamlit"]}
+              linkLabel="View repo →"
+              linkHref="https://github.com/Varun203420/AI-Data-Analyst"
             />
           </div>
         </div>

@@ -19,15 +19,27 @@ export default function Nav() {
           Varun Hariharan
         </Link>
         <nav className="flex gap-6 text-sm">
-          {links.slice(1).map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-ink/70 transition-colors hover:text-signal"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {links.slice(1).map((link) =>
+            link.href === "/resume" ? (
+              <a
+                key={link.href}
+                href="/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="text-ink/70 transition-colors hover:text-signal"
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-ink/70 transition-colors hover:text-signal"
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
       </div>
     </header>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 
 export const metadata: Metadata = {
   title: "Varun Hariharan",
@@ -33,7 +34,9 @@ export default function RootLayout({
         style={{ fontFamily: "Inter, sans-serif" }}
       >
         <Nav />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen">
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
       </body>
     </html>
