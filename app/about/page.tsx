@@ -1,9 +1,19 @@
+import Image from "next/image";
 import Tag from "@/components/Tag";
 
 const skillGroups = [
   {
     label: "AI/ML",
-    skills: ["Claude API", "RAG", "Tool Use", "Prompt Engineering", "pgvector"],
+    skills: [
+      "Claude API",
+      "RAG",
+      "Tool Use / Function Calling",
+      "Prompt Engineering",
+      "Sentence Embeddings",
+      "pgvector",
+      "Vector DB",
+      "PyTorch",
+    ],
   },
   {
     label: "Data & Analysis",
@@ -11,11 +21,11 @@ const skillGroups = [
   },
   {
     label: "Programming",
-    skills: ["Python", "R", "JavaScript", "React"],
+    skills: ["Python", "R", "Java", "JavaScript", "HTML/CSS", "React", "PostgreSQL"],
   },
   {
     label: "Tools",
-    skills: ["FastAPI", "Streamlit", "Git", "Figma", "Vercel"],
+    skills: ["FastAPI", "Streamlit", "Git", "Figma", "VS Code", "Vercel"],
   },
 ];
 
@@ -23,10 +33,15 @@ export default function About() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
       <div className="flex flex-col items-start gap-8 sm:flex-row sm:items-center">
-        {/* Avatar placeholder -- swap for a real headshot at /public/avatar.jpg
-            and replace this block with an <img> tag when ready */}
-        <div className="flex h-28 w-28 shrink-0 items-center justify-center border border-ink/20 bg-ink font-display text-3xl font-semibold text-paper">
-          VH
+        <div className="h-28 w-28 shrink-0 overflow-hidden border border-ink/20">
+          <Image
+            src="/avatar.jpg"
+            alt="Varun Hariharan"
+            width={500}
+            height={500}
+            className="h-full w-full object-cover"
+            priority
+          />
         </div>
         <div>
           <h1 className="font-display text-3xl font-semibold tracking-tight">
@@ -54,7 +69,7 @@ export default function About() {
         </h2>
         <div className="space-y-5">
           {skillGroups.map((group) => (
-            <div key={group.label} className="flex flex-col gap-2 sm:flex-row sm:items-center">
+            <div key={group.label} className="flex flex-col gap-2 sm:flex-row sm:items-start">
               <span className="w-40 shrink-0 text-sm font-medium text-ink/60">
                 {group.label}
               </span>
