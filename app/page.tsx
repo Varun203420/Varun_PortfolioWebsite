@@ -8,8 +8,8 @@ export default function Home() {
       <section className="mx-auto grid max-w-5xl items-center gap-10 px-6 py-20 md:grid-cols-2">
         <div>
           <h1 className="font-display text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-            I build AI-powered tools — from Monte Carlo risk simulators to
-            RAG-based research assistants.
+            I turn ambiguous problems into AI-powered products people can
+            actually use.
           </h1>
           <p className="mt-6 max-w-md text-ink/70">
             MS in AI student at Northeastern, with a Human-Centered Design and

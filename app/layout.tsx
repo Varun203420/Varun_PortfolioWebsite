@@ -7,7 +7,7 @@ import PageTransition from "@/components/PageTransition";
 export const metadata: Metadata = {
   title: "Varun Hariharan",
   description:
-    "I build AI-powered tools — from Monte Carlo risk simulators to RAG-based research assistants.",
+    "I turn ambiguous problems into AI-powered products people can actually use.",
 };
 
 export default function RootLayout({
