@@ -54,8 +54,8 @@ export default function About() {
       </div>
 
       <p className="mt-10 max-w-2xl text-lg leading-relaxed text-ink/80">
-        I build AI-powered tools -- currently as an MS in AI student at
-        Northeastern. My HCDE + Economics background from UW shapes how I
+        I build AI-powered products and tools, currently as an MS in AI student at
+        Northeastern. My Human-Centered Design Engineering + Economics background from UW shapes how I
         build them: not just functional, but usable and clear about what
         they don&apos;t know. That shows up in projects like a Monte Carlo
         risk simulator that explains its own uncertainty, and Research
